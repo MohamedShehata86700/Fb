@@ -1,27 +1,19 @@
-try:
-    import os
-    from mechanize import Browser
-    from requests import get as gtt
-    from requests import post as po
-    from faker import Faker
-    import threading
-    import random
-    import requests
-    from uuid import uuid4
-    from secrets import token_hex
-    from requests import post as pp
-    from user_agent import generate_user_agent
-    from user_agent import generate_user_agent as gg
-    from random import choice as cc
-    from random import randrange as rr
-    import re
-except ModuleNotFoundError:
-    os.system("pip install mechanize")
-    os.system("pip install requests")
-    os.system("pip install faker")
-    os.system("pip install uuid")
-    os.system("pip install user_agent")
-    
+
+from mechanize import Browser
+from requests import get as gtt
+from requests import post as po
+from faker import Faker
+import threading
+import random
+import requests
+from uuid import uuid4
+from secrets import token_hex
+from requests import post as pp
+from user_agent import generate_user_agent
+from user_agent import generate_user_agent as gg
+from random import choice as cc
+from random import randrange as rr
+import re
 E = '\033[1;31m'
 X = '\033[1;33m'
 F = '\033[2;32m'
